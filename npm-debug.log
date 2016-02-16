@@ -1,0 +1,29 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'completion',
+1 verbose cli   '--',
+1 verbose cli   'npm',
+1 verbose cli   'install',
+1 verbose cli   'mongod' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 verbose registry.get https://registry.npmjs.org/-/short not expired, no request
+6 error TypeError: Object #<Object> has no method 'filter'
+6 error     at /usr/lib/node_modules/npm/lib/install.js:43:17
+6 error     at RegClient.get_ (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:130:14)
+6 error     at RegClient.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:49:12)
+6 error     at evalmachine.<anonymous>:272:14
+6 error     at /usr/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:102:5
+6 error     at Object.oncomplete (evalmachine.<anonymous>:108:15)
+7 error If you need help, you may report this *entire* log,
+7 error including the npm and node versions, at:
+7 error     <http://github.com/npm/npm/issues>
+8 error System Linux 3.19.0-25-generic
+9 error command "/usr/bin/node" "/usr/bin/npm" "completion" "--" "npm" "install" "mongod"
+10 error cwd /home/dzhakhar/Desktop/nodejs
+11 error node -v v0.10.37
+12 error npm -v 1.4.28
+13 error type undefined_method
+14 verbose exit [ 1, true ]
